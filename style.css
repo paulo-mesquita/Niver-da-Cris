@@ -2,23 +2,25 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f9f9f9;
-  text-align: center;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
-header {
-  background-color: #ffcc00;
+.container {
+  max-width: 600px;
   padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 h1 {
-  color: #fff;
-  font-size: 24px;
-}
-
-main {
-  padding: 20px;
+  color: #333;
 }
 
 button {
