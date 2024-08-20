@@ -45,14 +45,13 @@ const verses = [
     "Tudo posso naquele que me fortalece. - Filipenses 4:13 (NVI)"
 ];
 
+
+
 button.addEventListener('click', function() {
-  const randomVerse = verses[Math.floor(Math.random() * verses.length)];
-  const resultElement = document.getElementById('result');
+    // Seleciona um versículo aleatório
+    const randomVerse = verses[Math.floor(Math.random() * verses.length)];
 
-  // Remove a classe de animação antes de adicioná-la novamente
-  resultElement.classList.remove('show-verse');
-  void resultElement.offsetWidth; // Força o reflow para reiniciar a animação
-
-  resultElement.innerHTML = `<p>${randomVerse}</p>`;
-  resultElement.classList.add('show-verse');
+    // Exibe o versículo na página
+    const resultElement = document.getElementById('result');
+    resultElement.innerHTML = `<p>${randomVerse}</p>`;
 });
