@@ -45,13 +45,8 @@ button:hover {
   display: none; /* Versículo inicialmente escondido */
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
 .show-verse {
-  display: block;
+  display: block; /* Mostrar o versículo quando a classe é aplicada */
   animation: fadeIn 1s ease-in-out;
   padding: 20px;
   background-color: #f0f8ff;
@@ -63,4 +58,9 @@ button:hover {
 
 .show-verse:hover {
   transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 }
