@@ -42,7 +42,85 @@ const verses = [
     "Eu sou o Senhor, o Deus de toda a humanidade. Existe alguma coisa difícil demais para mim? - Jeremias 32:27 (NVI)",
     "Mas o fruto do Espírito é amor, alegria, paz, paciência, amabilidade, bondade, fidelidade, mansidão e domínio próprio. Contra essas coisas não há lei. - Gálatas 5:22-23 (NVI)",
     "Que o Deus da esperança os encha de toda alegria e paz, por sua confiança nele, para que vocês transbordem de esperança, pelo poder do Espírito Santo. - Romanos 15:13 (NVI)",
-    "Tudo posso naquele que me fortalece. - Filipenses 4:13 (NVI)"
+    "Tudo posso naquele que me fortalece. - Filipenses 4:13 (NVI)",
+
+    // Fé
+    "Ora, a fé é a certeza daquilo que esperamos e a prova das coisas que não vemos. - Hebreus 11:1 (NVI)",
+    "Pois vivemos por fé, e não pelo que vemos. - 2 Coríntios 5:7 (NVI)",
+    "E tudo o que pedirem em oração, se crerem, vocês receberão. - Mateus 21:22 (NVI)",
+    "Jesus respondeu: 'Se você pode?' Tudo é possível àquele que crê. - Marcos 9:23 (NVI)",
+    "Sem fé é impossível agradar a Deus, pois quem dele se aproxima precisa crer que ele existe e que recompensa aqueles que o buscam. - Hebreus 11:6 (NVI)",
+
+    // Felicidade
+    "Este é o dia em que o Senhor agiu; alegremo-nos e exultemos neste dia. - Salmos 118:24 (NVI)",
+    "Alegrem-se sempre no Senhor. Novamente direi: Alegrem-se! - Filipenses 4:4 (NVI)",
+    "O coração alegre aformoseia o rosto, mas com a tristeza do coração o espírito se abate. - Provérbios 15:13 (NVI)",
+    "O Senhor é a minha força e o meu escudo; nele o meu coração confia, e dele recebo ajuda. Meu coração exulta de alegria, e com o meu cântico lhe darei graças. - Salmos 28:7 (NVI)",
+    "O justo se regozija no Senhor e nele se refugia; todos os de coração reto o louvarão! - Salmos 64:10 (NVI)",
+
+    // Amizade
+    "Amigo ama em todos os momentos; é um irmão na adversidade. - Provérbios 17:17 (NVI)",
+    "Perfume e incenso trazem alegria ao coração; do conselho sincero do homem nasce uma bela amizade. - Provérbios 27:9 (NVI)",
+    "Assim como o ferro afia o ferro, o homem afia o seu companheiro. - Provérbios 27:17 (NVI)",
+    "Melhor é a repreensão feita abertamente do que o amor escondido. - Provérbios 27:5 (NVI)",
+    "Se alguém quiser prevalecer contra um, os dois resistirão. O cordão de três dobras não se rompe com facilidade. - Eclesiastes 4:12 (NVI)",
+
+    // Aniversário
+    "Ensina-nos a contar os nossos dias para que o nosso coração alcance sabedoria. - Salmos 90:12 (NVI)",
+    "Dêem graças ao Senhor porque ele é bom; o seu amor dura para sempre. - 1 Crônicas 16:34 (NVI)",
+    "Os anos da nossa vida chegam a setenta, ou a oitenta para os que têm mais vigor; entretanto, são anos difíceis e cheios de sofrimento, pois a vida passa depressa, e nós voamos. - Salmos 90:10 (NVI)",
+    "O Senhor cumpre os desejos daqueles que o temem; ouve-os gritar por socorro e os salva. - Salmos 145:19 (NVI)",
+    "Este é o dia que fez o Senhor; regozijemo-nos e alegremo-nos nele. - Salmos 118:24 (NVI)",
+
+    // Fé
+    "Porque vivemos por fé, e não pelo que vemos. - 2 Coríntios 5:7 (NVI)",
+    "Tudo posso naquele que me fortalece. - Filipenses 4:13 (NVI)",
+    "Mas eu confio em ti, Senhor; e digo: 'Tu és o meu Deus'. - Salmos 31:14 (NVI)",
+    "O Senhor é minha luz e minha salvação; de quem terei medo? O Senhor é a fortaleza da minha vida; a quem temerei? - Salmos 27:1 (NVI)",
+    "Mas o justo viverá pela fé. - Romanos 1:17 (NVI)",
+
+    // Felicidade
+    "Alegrem-se com os que se alegram; chorem com os que choram. - Romanos 12:15 (NVI)",
+    "Bem-aventurados os que têm fome e sede de justiça, pois serão satisfeitos. - Mateus 5:6 (NVI)",
+    "Alegrem-se na esperança, sejam pacientes na tribulação, perseverem na oração. - Romanos 12:12 (NVI)",
+    "Regozijem-se sempre. - 1 Tessalonicenses 5:16 (NVI)",
+    "Bem-aventurados os que choram, pois serão consolados. - Mateus 5:4 (NVI)",
+
+    // Amizade
+    "O amigo fiel é um refúgio seguro; quem o encontrou, encontrou um tesouro. - Eclesiástico 6:14 (NVI)",
+    "Há amigos mais chegados que um irmão. - Provérbios 18:24 (NVI)",
+    "O meu mandamento é este: Amem-se uns aos outros como eu os amei. - João 15:12 (NVI)",
+    "Ninguém tem maior amor do que aquele que dá a sua vida pelos seus amigos. - João 15:13 (NVI)",
+    "Quem encontra um amigo, encontra um tesouro. - Eclesiástico 6:14 (NVI)",
+
+    // Aniversário
+    "O Senhor te abençoe e te guarde; o Senhor faça resplandecer o seu rosto sobre ti e te conceda graça; o Senhor volte para ti o seu rosto e te dê paz. - Números 6:24-26 (NVI)",
+    "Mas os que esperam no Senhor renovarão as suas forças. Subirão com asas como águias; correrão e não se cansarão; caminharão e não se fatigarão. - Isaías 40:31 (NVI)",
+    "Pois sou eu que conheço os planos que tenho para vocês, diz o Senhor, planos de fazê-los prosperar e não de causar dano, planos de dar a vocês esperança e um futuro. - Jeremias 29:11 (NVI)",
+    "Dêem graças ao Senhor porque ele é bom; o seu amor dura para sempre! - Salmos 107:1 (NVI)",
+    "Grandes coisas fez o Senhor por nós, por isso estamos alegres. - Salmos 126:3 (NVI)",
+
+    // Fé
+    "Porque é pela graça que vocês são salvos, mediante a fé – e isso não vem de vocês, é dom de Deus. - Efésios 2:8 (NVI)",
+    "Peçam, e será dado; busquem, e encontrarão; batam, e a porta será aberta. - Mateus 7:7 (NVI)",
+    "Quando você passar por águas profundas, eu estarei com você; quando passar por rios de dificuldades, você não se afogará; quando passar pelo fogo da opressão, você não se queimará; as chamas não o consumirão. - Isaías 43:2 (NVI)",
+    "Que diremos, pois, diante dessas coisas? Se Deus é por nós, quem será contra nós? - Romanos 8:31 (NVI)",
+    "Pois o Senhor não abandona aqueles que são fiéis a ele. - Salmos 37:28 (NVI)",
+
+    // Felicidade
+    "O Senhor é minha força e meu cântico; ele é a minha salvação. - Êxodo 15:2 (NVI)",
+    "O choro pode durar uma noite, mas a alegria vem pela manhã. - Salmos 30:5 (NVI)",
+    "A bênção do Senhor traz riqueza, e não inclui dor alguma. - Provérbios 10:22 (NVI)",
+    "Em tudo somos atribulados, mas não angustiados; perplexos, mas não desanimados. - 2 Coríntios 4:8 (NVI)",
+    "Vocês serão como um jardim bem regado, como uma fonte cujas águas nunca faltam. - Isaías 58:11 (NVI)",
+
+    // Amizade
+    "Melhor é serem dois do que um, porque têm melhor paga do seu trabalho. - Eclesiastes 4:9 (NVI)",
+    "O amigo ama em todos os momentos; é um irmão na adversidade. - Provérbios 17:17 (NVI)",
+    "Deem e lhes será dado: uma boa medida, calcada, sacudida e transbordante será dada a vocês. Pois a medida que usarem, também será usada para medir vocês. - Lucas 6:38 (NVI)",
+    "Os que confiam no Senhor são como o monte Sião, que não se pode abalar, mas permanece para sempre. - Salmos 125:1 (NVI)",
+    "O Senhor é bom, um refúgio em tempos de angústia. Ele protege os que nele confiam. - Naum 1:7 (NVI)"
+
 ];
 
 button.addEventListener('click', function() {
